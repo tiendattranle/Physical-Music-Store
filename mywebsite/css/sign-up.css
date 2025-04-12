@@ -1,0 +1,144 @@
+form input,
+form select,
+form textarea {
+    width: 75%;
+    padding: 2%;
+    font-size: 1.1vw;
+    margin: 2%;
+    border: none;
+    border-radius: 0.75vw;
+    appearance: none
+}
+form label {
+    font-size: 1.1vw;
+    padding-left: 1vw;
+}
+form text {
+    font-size: 1.1vw;
+}
+form input:focus,
+form select:focus {
+    outline: none;
+    border: none;
+    box-shadow: 0 0 5px #695749;
+}
+form option {
+    background-color: #fff;
+    color: #333;
+    padding: 8px;
+    font-size: 16px;               
+}
+form button {
+    background-color: #f3686e;
+    color: #ffffff;
+    font-size: 1.2vw;
+    padding: 1vw 1.5vw;
+    margin: 3%;
+    border: none;
+    border-radius: 0.75vw;
+    cursor: pointer;
+}
+
+form button:hover {
+    color: #f88b91;
+}
+
+#signupbox {
+    width: 30vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(20%);
+    position: relative;
+    color: #365cae;
+    padding: 10px 0;
+    align-items: center;
+    background-color: #bebcbd;
+    border: none;
+    box-shadow: 0 0 5px #000000;
+    border-radius: 15px;
+}
+form a {
+    text-decoration: none;
+}
+form text a {
+    text-decoration: underline;
+}
+form a img {
+    width: 8%;
+}
+
+@media (max-width: 767px) {
+    form input,
+    form select,
+    form textarea {
+        width: 75%;
+        padding: 2%;
+        font-size: 2.5vw;
+        margin: 2%;
+        border: none;
+        border-radius: 5px;
+        appearance: none
+    }
+    form label {
+        font-size: 2.5vw;
+    }
+    form text {
+        font-size: 2.5vw;
+    }
+    form input:focus,
+    form select:focus {
+        outline: none;
+        border: none;
+        box-shadow: 0 0 5px #695749;
+    }
+    form option {
+        background-color: #fff;
+        color: #333;
+        padding: 8px;
+        font-size: 2.5;               
+    }
+    form button {
+        background-color: #f3686e;
+        color: #ffffff;
+        font-size: 2.5vw;
+        padding: 2vw 3vw;
+        margin: 3%;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    form button:hover {
+        color: #f88b91;
+    }
+
+    #signupbox {
+        width: 80vw;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        transform: translateY(20%);
+        position: relative;
+        color: #365cae;
+        padding: 1vw 0;
+        align-items: center;
+        background-color: #bebcbd;
+        border: none;
+        box-shadow: 0 0 5px #000000;
+        border-radius: 15px;
+    }
+    form a {
+        text-decoration: none;
+    }
+    form text a {
+        text-decoration: underline;
+    }
+    form a img {
+        width: 8%;
+    }
+    .form-button {
+        display: flex;
+        justify-content: space-between;
+    }
+}
